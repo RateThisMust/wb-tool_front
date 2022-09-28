@@ -1,0 +1,143 @@
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1200px) {
+	/**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.wrap {
+  	overflow: hidden;
+	}
+
+	.content__group.content__group_1,
+	.content__group.content__group_2 {
+		width: 100%;
+	}
+	.stat__group.stat__group_1 {
+		display: block;
+	}
+	.stat__buttons {
+	    width: 100%;
+	    justify-content: space-between;
+			margin-top: 10px;
+	}
+	.stat__but {
+		width: 100%;
+	}
+	.stat__group.stat__group_2 {
+		flex-direction: column;
+	}
+	.stat__info {
+		flex-direction: row;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/**/
+	.burger {
+		display: flex;
+	}
+	.menu__items {
+		background: #fff;
+		display: block;
+		position: absolute;
+		width: 100%;
+		z-index: 1000;
+		max-height: 0px;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	/**/
+	.content-box {
+		padding: 10px;
+	}
+	.reports__items {
+		display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+	}
+	.report-box {
+		width: 40%;
+		flex-grow: 2;
+	}
+	.header-title {
+		font-size: 20px;
+	}
+
+	.like-item {
+		padding: 10px 20px;
+	}
+
+	.breadcrumbs__item {
+		display: none;
+	}
+	.breadcrumbs__item:first-child,
+	.breadcrumbs__item:last-child {
+		display: block;
+	}
+
+	.progress {
+		flex-direction: column;
+		gap: 10px;
+		align-items: baseline;
+	}
+
+	.progress__wrap:before {
+		display: none;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/**/
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	/**/
+
+}
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	/**/
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+	/**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/**/
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/**/
+}
+
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
